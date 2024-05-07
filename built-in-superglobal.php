@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+
     <?php
         echo $_SERVER["DOCUMENT_ROOT"];
         echo "<br>";
@@ -29,5 +30,6 @@
 
         $_ENV[];
     ?>
+    
 </body> 
 </html>
