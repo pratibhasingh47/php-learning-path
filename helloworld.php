@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+
     <?php
     // Comments
     echo "Hello World";
@@ -14,6 +14,7 @@
         echo "Learning php !...";
     }
     ?>
+    
     <p>This is a paragraph !</p>
 </body>
 </html>
