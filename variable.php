@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+
     <?php
         $name = "Pratibha Singh";
         $test = $name;
@@ -30,5 +31,6 @@
     ?>
 
     <p>Hello ! My name is <?php echo $name?> & I am learning php</p>
+    
 </body>
 </html>
