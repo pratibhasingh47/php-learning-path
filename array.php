@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+
         $fruits = ["Apple" , "Banana" , "Cherry"];
 
         unset($fruits[1]);
@@ -31,7 +32,6 @@
         $test = ["mango"];
         array_splice($fruits,2,0,$test);
         print_r($fruits);
-
 
     ?>
 </body>
