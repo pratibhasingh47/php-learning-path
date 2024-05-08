@@ -23,6 +23,7 @@
         echo $result;
         echo '<br>';
 
+
         switch ($a){
             case 1 : 
                 echo "value is 1";
@@ -34,6 +35,8 @@
                 echo "This is default";
         }
         echo '<br>';
+
+        
 
         if( $a < $b && $bool ){
             echo "First condition is true";
