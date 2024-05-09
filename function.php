@@ -26,6 +26,7 @@
     print_r( explode(" ",$string) );
     echo "<br>";
 
+
     $number = -5.5;
     echo abs($number);
     echo "<br>";
@@ -37,6 +38,7 @@
     echo "<br>";
     echo rand(1,100);
     echo "<br>";
+
 
     $array1 = ['apple','mango','banana','leechi'];
     $array2 = ['greenapple'];
@@ -52,6 +54,7 @@
     echo "<br>";
     print_r(array_merge($array1,$array2));
     echo "<br>";
+    
 
     echo date ("Y-m-d H:i:s");
     echo time(); 
