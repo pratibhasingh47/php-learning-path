@@ -17,6 +17,7 @@
 
     $boolean = true;
     $test = 5;
+
     while($test < 10)
     {
         echo "THis is while loop " . $boolean;
@@ -28,7 +29,9 @@
     echo "<br>";
 
     $a = 10;
-    do {
+
+    do
+    {
         echo "This is do while";
     }while($a <10);
 
