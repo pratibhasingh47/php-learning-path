@@ -8,11 +8,6 @@ if($_SERVER["REQUEST_METHOD"=="POST"]){
     try {
         require_once "dbh.inc.php"; 
 
-        // $query = "INSERT INTO Users(username,pwd,email) VALUES ($username,$pwd,$email);";
-
-
-        // $query = "INSERT INTO users(username,pwd,email) VALUES (?,?,?);";
-
         $query = "UPDATE  users SET username = :username,pwd = :pwd,email=:email WHERE id = 2;";
 
         $stmt = $pdo->prepare($query);
@@ -29,8 +24,6 @@ if($_SERVER["REQUEST_METHOD"=="POST"]){
         header("Location: ../index.php");
 
         die();
-        // exit();
-
 
     } catch ( PDOException $e ) {
         die("Query Failed : " . $e->getMessage());
