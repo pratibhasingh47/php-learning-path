@@ -1,7 +1,7 @@
-
 <?php 
 
-if($_SERVER["REQUEST_METHOD"=="POST"]){
+if($_SERVER["REQUEST_METHOD"=="POST"])
+{
     $username = $_POST["username"];
     $email = $_POST["email"];
     $pwd= $_POST["pwd"];
@@ -10,7 +10,6 @@ if($_SERVER["REQUEST_METHOD"=="POST"]){
         require_once "dbh.inc.php"; 
 
         // $query = "INSERT INTO Users(username,pwd,email) VALUES ($username,$pwd,$email);";
-
 
         // $query = "INSERT INTO users(username,pwd,email) VALUES (?,?,?);";
 
@@ -33,8 +32,9 @@ if($_SERVER["REQUEST_METHOD"=="POST"]){
         die();
         // exit();
 
-
-    } catch ( PDOException $e ) {
+    }
+    catch ( PDOException $e ) 
+    {
         die("Query Failed : " . $e->getMessage());
     }
 
