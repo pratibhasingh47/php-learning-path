@@ -6,8 +6,6 @@ $_SESSION[" username "] = "Pratibha";
 // unset($_SESSION["username"]);
 // session_unset();
 // session_destroy();
-
-
 ?>
 
 <!DOCTYPE html>
